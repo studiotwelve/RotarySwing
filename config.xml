@@ -2,7 +2,9 @@
   <name>rotaryswing</name>
   <description>Rotary Swing, Best Online Golf Instruction in Your Pocket rotaryswing.com</description>
   <author href="http://whitefoxstudios.net" email="hello@whitefoxstudios.net">White Fox Studios</author>
+  
   <content src="index.html"/>
+  
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
@@ -10,14 +12,14 @@
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
-  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="ios-statusbarstyle" value="default"/>
   <preference name="detect-data-types" value="true"/>
-  <preference name="exit-on-suspend" value="false"/>
-  <preference name="show-splash-screen-spinner" value="true"/>
+  <preference name="show-splash-screen-spinner" value="false"/>
   <preference name="auto-hide-splash-screen" value="true"/>
-  <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
+  <preference name="BackgroundColor" value="0xffe6e6e6"/>
+  
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
@@ -29,6 +31,7 @@
   <icon src="www/res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144"/>
   <icon src="www/res/icon/windows-phone/icon-48.png" gap:platform="winphone"/>
   <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
+  
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>
@@ -39,5 +42,6 @@
   <gap:splash src="www/res/screen/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024"/>
   <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>
+  
   <access origin="*"/>
 </widget>
